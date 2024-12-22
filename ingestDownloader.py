@@ -17,33 +17,32 @@ from gooey import Gooey, GooeyParser
 
 target_dir = r"results"
 
-#@Gooey
+@Gooey
 def main():
-    parser = argparse.ArgumentParser( # Switch to argparse.ArgumentParser() when not using Gooey
+    parser = GooeyParser( # Switch to argparse.ArgumentParser() when not using Gooey
         description="Music Grabbin' Machine!"
     )
     parser.add_argument(
-        "-f",
         "--file",
         type = str,
-        #widget = "FileChooser",
+        nargs = 1,
+        metavar = ("CSV"),
+        widget = "FileChooser",
         help = "Use a .csv file listing the songs to be downloaded."
     )
     parser.add_argument(
-        "-u",
         "--url",
         type = str,
         nargs = 2,
-        #metavar = ("URL", "Songname.mp3"),
+        metavar = ("URL, title"),
         help = "Imports a single song from a single URL. Needs both the URL and the desired song title.",
     )
     parser.add_argument(
-        "-d",
         "--difference",
         type = str,
         nargs = 2,
-        #metavar = ("oldfile", "newfile"),
-        #widget = "MultiFileChooser",
+        metavar = ("oldfile newfile"),
+        widget = "MultiFileChooser",
         help = "Compares two songlists and only obtains new songs on the list."
     )
 
