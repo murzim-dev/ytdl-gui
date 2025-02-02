@@ -3,10 +3,9 @@ ytdl-gui provides an easy way to download audio and video media from YouTube and
 ## First-Time Setup (Windows)
 1.  Verify Python install
     This application runs on Python, and has an easy method for updating the stuff we'll need.
-    
-    Open Command Prompt and type:
+    - Open Command Prompt and type:
     ```python -V```
-    If no Python installation is found, or Python version < 3.0, visit [Download Python](https://www.python.org/downloads/) and click Download. When prompted in the installer, select "Add Python to PATH"
+    - If no Python installation is found, or Python version < 3.0, visit [Download Python](https://www.python.org/downloads/) and click Download. When prompted in the installer, select "Add Python to PATH"
 2.  (Optional-ish) Install [ffmpeg](https://www.ffmpeg.org/)
     FFMPEG provides extra utilities for working with audio files. This application can work without it, but works best when it can see it.
     [https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases)
