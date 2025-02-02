@@ -1,7 +1,7 @@
 # ytdl-gui
 ytdl-gui provides an easy way to download audio and video media from YouTube and other sources by wrapping a [Gooey](https://github.com/chriskiehl/Gooey.git) UI around the [yt-dl](https://github.com/yt-dlp/yt-dlp) downloading package to provide both single URL and bulk URL downloading.
 
-## First-Time Setup
+## First-Time Setup (MacOS)
 1.	Install Homebrew 
 
        ``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
