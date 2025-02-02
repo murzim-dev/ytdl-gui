@@ -3,6 +3,7 @@ ytdl-gui provides an easy way to download audio and video media from YouTube and
 ## First-Time Setup (Windows)
 1.  Verify Python install
     This application runs on Python, and has an easy method for updating the stuff we'll need.
+    
     Open Command Prompt and type:
     ```python -V```
     If no Python installation is found, or Python version < 3.0, visit [Download Python](https://www.python.org/downloads/) and click Download. When prompted in the installer, select "Add Python to PATH"
